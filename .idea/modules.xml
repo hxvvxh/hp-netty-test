@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hp-health-netty/hp-health-netty.iml" filepath="$PROJECT_DIR$/hp-health-netty/hp-health-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hp-hello-netty/hp-hello-netty.iml" filepath="$PROJECT_DIR$/hp-hello-netty/hp-hello-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hp-http-netty/hp-http-netty.iml" filepath="$PROJECT_DIR$/hp-http-netty/hp-http-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hp-netty-test.iml" filepath="$PROJECT_DIR$/.idea/hp-netty-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hp-unpack-netty/hp-unpack-netty.iml" filepath="$PROJECT_DIR$/hp-unpack-netty/hp-unpack-netty.iml" />
+    </modules>
+  </component>
+</project>
