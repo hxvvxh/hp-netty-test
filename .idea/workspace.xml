@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0c625f6-d2a4-414a-a6f5-5df068aa8183" name="Default Changelist" comment="" />
+    <list default="true" id="f0c625f6-d2a4-414a-a6f5-5df068aa8183" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,87 +20,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hp-unpack-netty/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hp-unpack-netty/src/main/java/com/hp/netty/client/NettyClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hp-unpack-netty/src/main/java/com/hp/netty/client/NettyClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hp-unpack-netty/src/main/java/com/hp/netty/server/NettyServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hp-unpack-netty/src/main/java/com/hp/netty/server/NettyServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hp-http-netty/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hp-http-netty/src/main/java/com/hp/netty/server/NettyServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hp-http-netty/src/main/java/com/hp/netty/server/NettyServerFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hp-http-netty/src/main/java/com/hp/netty/server/NettyServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="318">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="56">
+                <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -138,6 +75,7 @@
         <option value="$PROJECT_DIR$/hp-http-netty/src/main/java/com/hp/netty/server/NettyServerFilter.java" />
         <option value="$PROJECT_DIR$/hp-http-netty/src/main/java/com/hp/netty/server/NettyServerHandler.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -187,32 +125,6 @@
               <item name="hp-netty-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="hp-netty-test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hp-netty-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hp-netty-test" type="462c0819:PsiDirectoryNode" />
-              <item name="hp-hello-netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hp-netty-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hp-netty-test" type="462c0819:PsiDirectoryNode" />
-              <item name="hp-hello-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hp-netty-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hp-netty-test" type="462c0819:PsiDirectoryNode" />
-              <item name="hp-hello-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hp-netty-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hp-netty-test" type="462c0819:PsiDirectoryNode" />
-              <item name="hp-hello-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -222,6 +134,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -261,12 +174,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604410571972</updated>
-      <workItem from="1604410573349" duration="676000" />
+      <workItem from="1604410573349" duration="806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="676000" />
+    <option name="totallyTimeSpent" value="806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
@@ -281,8 +194,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -601,8 +514,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="318">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="56">
+            <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
