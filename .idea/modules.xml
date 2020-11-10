@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hp-domo-other/hp-domo-other.iml" filepath="$PROJECT_DIR$/hp-domo-other/hp-domo-other.iml" />
       <module fileurl="file://$PROJECT_DIR$/hp-health-netty/hp-health-netty.iml" filepath="$PROJECT_DIR$/hp-health-netty/hp-health-netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/hp-hello-netty/hp-hello-netty.iml" filepath="$PROJECT_DIR$/hp-hello-netty/hp-hello-netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/hp-http-netty/hp-http-netty.iml" filepath="$PROJECT_DIR$/hp-http-netty/hp-http-netty.iml" />

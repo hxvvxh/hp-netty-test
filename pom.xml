@@ -10,6 +10,7 @@
         <module>hp-health-netty</module>
         <module>hp-unpack-netty</module>
         <module>hp-http-netty</module>
+        <module>hp-domo-other</module>
     </modules>
     <packaging>pom</packaging>
 
