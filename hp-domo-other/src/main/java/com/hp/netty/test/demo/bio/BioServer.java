@@ -23,6 +23,7 @@ public class BioServer {
     public static void main(String[] args) throws Exception{
         ServerSocket serverSocket = new ServerSocket(666);
         while (true){
+            System.out.println("主线程id=" + Thread.currentThread().getId() + "线程名称=" + Thread.currentThread().getName());
             //BIO这个地方会阻塞一直到获取到连接请求
             System.out.println("等待连接");
             final Socket socket=serverSocket.accept();
