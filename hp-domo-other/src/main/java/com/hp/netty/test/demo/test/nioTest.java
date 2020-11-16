@@ -1,11 +1,15 @@
-package com.hp.netty.test.demo.nio;
+package com.hp.netty.test.demo.test;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.IntBuffer;
 import java.nio.channels.FileChannel;
+import java.nio.channels.ServerSocketChannel;
+import java.nio.channels.SocketChannel;
+import java.util.Arrays;
 
 /**
  *
@@ -23,13 +27,14 @@ import java.nio.channels.FileChannel;
  * @date 2020/11/12 21:56
  */
 public class nioTest {
-    public static void main(String[] args) {
-//        testBuffer();
-//        testFileChannelOut();
-//        testFileChannelInput();
+    public static void main(String[] args) throws Exception {
+        testBuffer();
+        testFileChannelOut();
+        testFileChannelInput();
         testFileChannelAll();
+        testCopy();
+        testArray();
     }
-
     private static void testBuffer() {
         //创建指定长度的缓冲区
         IntBuffer buffer=IntBuffer.allocate(5);
@@ -41,11 +46,16 @@ public class nioTest {
         buffer.flip();
 
         //判断是否还存在元素
-        while (buffer.hasRemaining()){
+//        while (buffer.hasRemaining()){
+//            //获取元素并输出
+//            System.out.println(buffer.get());
+//        }
+        //只读buffer。readOnlyBuffer不可在存放数据
+        IntBuffer readOnlyBuffer = buffer.asReadOnlyBuffer();
+        while (readOnlyBuffer.hasRemaining()){
             //获取元素并输出
-            System.out.println(buffer.get());
+            System.out.println(readOnlyBuffer.get());
         }
-        buffer.flip();
     }
 
     private static void testFileChannelOut() {
@@ -107,6 +117,53 @@ public class nioTest {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
 
+    private static void testCopy() throws Exception{
+        FileInputStream inputStream=new FileInputStream("E:\\workspace\\hp-netty-test\\a.jpg");
+        FileOutputStream outputStream=new FileOutputStream("E:\\workspace\\hp-netty-test\\aCopy.jpg");
+        FileChannel inputStreamChannel = inputStream.getChannel();
+        FileChannel outputStreamChannel = outputStream.getChannel();
+
+        //直接进行流数据复制
+        outputStreamChannel.transferFrom(inputStreamChannel,0,inputStreamChannel.size());
+
+        inputStreamChannel.close();
+        outputStreamChannel.close();
+        inputStream.close();
+        outputStream.close();
+    }
+
+    private static void testArray() throws Exception{
+        ServerSocketChannel serverSocketChannel=ServerSocketChannel.open();
+        InetSocketAddress address=new InetSocketAddress(7777);
+        serverSocketChannel.socket().bind(address);
+
+        ByteBuffer[] byteBuffers=new ByteBuffer[2];
+        byteBuffers[0]=ByteBuffer.allocate(5);
+        byteBuffers[1]=ByteBuffer.allocate(3);
+        SocketChannel socketChannel = serverSocketChannel.accept();
+        while (true){
+            int max=8;
+            int readLine=0;
+            while (readLine<max){
+                Long read=socketChannel.read(byteBuffers);
+                readLine+=read;
+                System.out.println("readLine"+readLine);
+                Arrays.asList(byteBuffers).stream()
+                        .map(buffer -> "p:" + buffer.position() + "limit" + buffer.limit())
+                        .forEach(System.out::println);
+
+
+                Arrays.asList(byteBuffers).stream().forEach(buffer->buffer.flip());
+            }
+            int writeLine=0;
+            while (writeLine<max){
+                Long write=socketChannel.write(byteBuffers);
+                writeLine+=write;
+            }
+            Arrays.asList(byteBuffers).stream().forEach(buffer->buffer.clear());
+            System.out.println("readLine:"+readLine+"writeLine:"+writeLine);
+        }
     }
 }
