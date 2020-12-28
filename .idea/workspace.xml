@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0c625f6-d2a4-414a-a6f5-5df068aa8183" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/nio/nioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/test/nioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/sadasd.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hp-http-netty/target/" />
     <ignored path="$PROJECT_DIR$/hp-health-netty/target/" />
@@ -26,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/test/nioTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/nio/groupchar/GroupChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="621">
+              <caret line="117" column="15" selection-start-line="117" selection-start-column="15" selection-end-line="117" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,20 +36,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/SocketChannel.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/nio/groupchar/GroupChatClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="479" column="22" selection-start-line="479" selection-start-column="22" selection-end-line="479" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/FileChannel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1086">
-              <caret line="685" column="25" selection-start-line="685" selection-start-column="25" selection-end-line="685" selection-end-column="25" />
+            <state relative-caret-position="837">
+              <caret line="93" column="35" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,6 +56,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Selector</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,6 +104,9 @@
         <option value="$PROJECT_DIR$/test.txt" />
         <option value="$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/nio/nioTest.java" />
         <option value="$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/test/nioTest.java" />
+        <option value="$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/test/SelectorTest.java" />
+        <option value="$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/nio/groupchar/GroupChatServer.java" />
+        <option value="$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/nio/groupchar/GroupChatClient.java" />
       </list>
     </option>
   </component>
@@ -135,10 +135,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1783" />
-    <option name="y" value="-1031" />
-    <option name="width" value="2232" />
-    <option name="height" value="1319" />
+    <option name="x" value="1908" />
+    <option name="y" value="-1014" />
+    <option name="width" value="1464" />
+    <option name="height" value="2523" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -149,7 +149,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,12 +199,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hp-netty-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hp-netty-test" type="462c0819:PsiDirectoryNode" />
+              <item name="hp-domo-other" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="groupchar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,6 +228,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -240,7 +254,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.nioTest">
+  <component name="RunManager" selected="Application.22222">
+    <configuration name="1111" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.hp.netty.test.demo.nio.groupchar.GroupChatClient" />
+      <module name="hp-domo-other" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="22222" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.hp.netty.test.demo.nio.groupchar.GroupChatClient" />
+      <module name="hp-domo-other" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hp.netty.test.demo.nio.ChatClient" />
       <module name="hp-domo-other" />
@@ -274,6 +304,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hp.netty.test.demo.nio.groupchar.GroupChatClient" />
+      <module name="hp-domo-other" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hp.netty.test.demo.nio.groupchar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hp.netty.test.demo.nio.groupchar.GroupChatServer" />
+      <module name="hp-domo-other" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hp.netty.test.demo.nio.groupchar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="nioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hp.netty.test.demo.test.nioTest" />
       <module name="hp-domo-other" />
@@ -287,14 +343,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="Remote" nameIsGenerated="true">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Application.22222" />
+      <item itemvalue="Application.1111" />
       <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.ChatServer2" />
       <item itemvalue="Application.ChatClient" />
       <item itemvalue="Application.nioTest" />
+      <item itemvalue="Application.GroupChatServer" />
+      <item itemvalue="Application.GroupChatClient" />
+      <item itemvalue="Remote.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupChatServer" />
+        <item itemvalue="Application.GroupChatClient" />
         <item itemvalue="Application.nioTest" />
         <item itemvalue="Application.ChatClient" />
       </list>
@@ -317,17 +389,24 @@
       <workItem from="1605186505673" duration="2252000" />
       <workItem from="1605421472564" duration="4073000" />
       <workItem from="1605533577989" duration="3357000" />
+      <workItem from="1605793015054" duration="1061000" />
+      <workItem from="1605961009605" duration="25000" />
+      <workItem from="1606139594488" duration="1255000" />
+      <workItem from="1607331700504" duration="33000" />
+      <workItem from="1607332194190" duration="653000" />
+      <workItem from="1608557869355" duration="844000" />
+      <workItem from="1609161086231" duration="6694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15638000" />
+    <option name="totallyTimeSpent" value="26203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-1009" width="975" height="1681" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2693566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15812431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -335,9 +414,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3750807" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32989025" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3253712" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.34473854" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -349,7 +428,7 @@
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.39367503" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Maven" order="5" />
@@ -426,47 +505,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hp-health-netty/src/main/java/com/hp/netty/client/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/hp-health-netty/src/main/java/com/hp/netty/server/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/hp-health-netty/src/main/java/com/hp/netty/client/NettyClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hp-hello-netty/hp-hello-netty.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hp-health-netty/src/main/java/com/hp/netty/server/NettyServer.java" />
-    <entry file="file://$PROJECT_DIR$/hp-health-netty/src/main/java/com/hp/netty/server/NettyServerFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hp-health-netty/src/main/java/com/hp/netty/server/NettyServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hp-unpack-netty/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hp-unpack-netty/src/main/java/com/hp/netty/client/NettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hp-unpack-netty/src/main/java/com/hp/netty/client/package-info.java" />
     <entry file="file://$PROJECT_DIR$/hp-unpack-netty/src/main/java/com/hp/netty/client/NettyClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -541,31 +579,6 @@
           <folding>
             <element signature="e#4750#4751#0" expanded="true" />
             <element signature="e#4807#4808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/Selector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="349" column="24" selection-start-line="349" selection-start-column="24" selection-end-line="349" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/ServerSocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="268" column="34" selection-start-line="268" selection-start-column="34" selection-end-line="268" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/SelectionKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="227" column="28" selection-start-line="227" selection-start-column="28" selection-end-line="227" selection-end-column="28" />
-          <folding>
-            <element signature="e#13176#13177#0" expanded="true" />
-            <element signature="e#13228#13229#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -653,42 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/nio/ChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/nio/UserInputHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/nio/ChatClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3458#3459#0" expanded="true" />
-            <element signature="e#3498#3499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/bio/BioServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -699,13 +676,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/sadasd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/sadasd.java" />
     <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/other/NettyClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -757,30 +728,158 @@
     <entry file="file://$PROJECT_DIR$/test2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/FileChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1086">
-          <caret line="685" column="25" selection-start-line="685" selection-start-column="25" selection-end-line="685" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aCopy.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/a.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/SocketChannel.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/FileChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="479" column="22" selection-start-line="479" selection-start-column="22" selection-end-line="479" selection-end-column="22" />
+        <state relative-caret-position="18284">
+          <caret line="685" column="25" selection-start-line="685" selection-start-column="25" selection-end-line="685" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/test/SelectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/test/nioTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="392">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hp-hello-netty/hp-hello-netty.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/nio/ChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#4912#4913#0" expanded="true" />
+            <element signature="e#4956#4957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/nio/UserInputHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/nio/ChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3458#3459#0" expanded="true" />
+            <element signature="e#3498#3499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/ServerSocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/SelectableChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="276" column="30" selection-start-line="276" selection-start-column="30" selection-end-line="276" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/SelectionKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="129" column="65" selection-start-line="129" selection-start-column="65" selection-end-line="129" selection-end-column="65" />
+          <folding>
+            <element signature="e#13176#13177#0" expanded="true" />
+            <element signature="e#13228#13229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/Selector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="205" column="22" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/spi/AbstractSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/jre/lib/rt.jar!/sun/nio/ch/SelectorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/SocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="487" column="24" selection-start-line="487" selection-start-column="24" selection-end-line="487" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/com/sun/org/apache/xpath/internal/operations/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/nio/channels/spi/AbstractSelectableChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="283" column="35" selection-start-line="283" selection-start-column="35" selection-end-line="283" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/nio/groupchar/GroupChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="117" column="15" selection-start-line="117" selection-start-column="15" selection-end-line="117" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hp-domo-other/src/main/java/com/hp/netty/test/demo/nio/groupchar/GroupChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="93" column="35" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -790,9 +889,78 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hp-domo-other</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
